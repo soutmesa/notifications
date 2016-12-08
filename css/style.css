@@ -1,0 +1,95 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+body {
+  scrollbar-face-color: #000000;
+  scrollbar-shadow-color: #2D2C4D;
+  scrollbar-highlight-color:#7D7E94;
+  scrollbar-3dlight-color: #7D7E94;
+  scrollbar-darkshadow-color: #2D2C4D;
+  scrollbar-track-color: #7D7E94;
+  scrollbar-arrow-color: #C1C1D1; 
+}
+
+/* CSS used here will be applied after bootstrap.css */
+.badge-notify{
+   background:red;
+   position:relative;
+   top: -15px;
+   left: -15px;
+}
+
+/* CSS used here will be applied after bootstrap.css */
+
+.dropdown {
+    display:inline-block;
+    margin-left:20px;
+    padding:10px;
+  }
+
+
+.glyphicon-bell {
+   
+    font-size:1.5rem;
+  }
+
+.notifications {
+   min-width:420px; 
+  }
+  
+  .notifications-wrapper {
+     overflow:auto;
+      max-height:250px;
+    }
+    
+ .menu-title {
+     color:#ff7788;
+     font-size:1.5rem;
+      display:inline-block;
+      }
+ 
+.glyphicon-circle-arrow-right {
+      margin-left:10px;     
+   }
+  
+   
+ .notification-heading, .notification-footer  {
+ 	padding:2px 10px;
+       }
+      
+        
+.dropdown-menu.divider {
+  margin:5px 0;          
+  }
+
+.item-title {
+  
+ font-size:1.3rem;
+ color:#000;
+    
+}
+
+.notifications a.content {
+ text-decoration:none;
+ background:#ccc;
+
+ }
+    
+.notification-item {
+ padding:10px;
+ margin:5px;
+ background:#ccc;
+ border-radius:4px;
+ }
+
+#btn-notify {
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: 1px;
+	font-size: 20px;
+}
